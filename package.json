@@ -1,0 +1,59 @@
+{
+  "name": "live-require",
+  "version": "0.0.0",
+  "description": "add scripts to a page programmatically",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": "",
+  "devDependencies": {
+    "tape": "~0.1.5",
+    "tap": "~0.4.0"
+  },
+  "testling": {
+    "browsers": {
+      "ie": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "ff": [
+        3.5,
+        10,
+        15,
+        19
+      ],
+      "chrome": [
+        10,
+        22,
+        25
+      ],
+      "safari": [
+        5.1,
+        6
+      ],
+      "opera": [
+        12
+      ]
+    },
+    "files": "test/*.js"
+  },
+  "keywords": [
+    "require",
+    "live",
+    "script",
+    "tag"
+  ],
+  "author": "Tom MacWright <tom@macwright.org>",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "tape": "~0.1.5"
+  }
+}
