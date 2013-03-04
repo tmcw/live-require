@@ -1,9 +1,9 @@
-var test = require('tape');
-var liveRequire = require('../');
+var test = require('tape'),
+    liveRequire = require('../');
 
-test('liveRequire', function (t) {
+test('liveRequire', function(t) {
     t.plan(1);
-    t.same(liveRequire('http://documentcloud.github.com/underscore/underscore.js'), function() {
-        t.ok(_);
+    liveRequire('http://documentcloud.github.com/underscore/underscore.js', function() {
+        t.ok(true);
     });
 });
