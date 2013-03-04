@@ -8,6 +8,7 @@ includes a script in a page
 
 ```
 var liveRequire = require('live-require');
+```
 
 ### liveRequire(url, callback)
 
