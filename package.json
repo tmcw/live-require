@@ -8,7 +8,7 @@
   },
   "repository": "",
   "devDependencies": {
-    "tape": "~0.1.5",
+    "tape": "~1.0.2",
     "tap": "~0.4.0"
   },
   "testling": {
