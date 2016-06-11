@@ -19,3 +19,7 @@ time.
 ## license
 
 BSD
+
+## See Also
+
+[maxogden's loadScript method](https://github.com/tmcw/live-require/issues/1) also allows you to load JavaScript during runtime.
