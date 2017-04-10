@@ -1,5 +1,7 @@
 ## live-require
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tmcw/live-require.svg)](https://greenkeeper.io/)
+
 [![](http://ci.testling.com/tmcw/live-require.png)](http://ci.testling.com/tmcw/live-require)
 
 includes a script in a page
